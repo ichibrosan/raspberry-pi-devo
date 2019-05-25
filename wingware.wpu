@@ -1,0 +1,393 @@
+#!wing
+#!version=7.0
+##################################################################
+# Wing project file : User-specific branch                       #
+##################################################################
+[user attributes]
+debug.remote-hosts = (8,
+                      [])
+debug.show-args-dialog = {loc('hello.py'): False}
+guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
+                            'windows': [{'name': 'nWThGX9gdXhPJrbb83a44Fqqcv'\
+        'F00ywr',
+        'size-state': '',
+        'type': 'dock',
+        'view': {'area': 'tall',
+                 'constraint': None,
+                 'current_pages': [0,
+                                   0],
+                 'full-screen': False,
+                 'notebook_display': 'normal',
+                 'notebook_percent': 0.25,
+                 'override_title': None,
+                 'pagelist': [('project',
+                               'tall',
+                               0,
+                               {'tree-state': {'file-sort-method': 'by name',
+        'list-files-first': False,
+        'tree-states': {'deep': {'expanded-nodes': [],
+                                 'selected-nodes': [(1,)],
+                                 'top-node': (0,)}},
+        'tree-style': 'deep'}}),
+                              ('browser',
+                               'tall',
+                               0,
+                               {}),
+                              ('snippets',
+                               'tall',
+                               0,
+                               {}),
+                              ('source-assistant',
+                               'tall',
+                               2,
+                               {}),
+                              ('debug-stack',
+                               'tall',
+                               1,
+                               {}),
+                              ('indent',
+                               'tall',
+                               2,
+                               {})],
+                 'primary_view_state': {'area': 'wide',
+        'constraint': None,
+        'current_pages': [0,
+                          4],
+        'notebook_display': 'normal',
+        'notebook_percent': 0.30000000000000004,
+        'override_title': None,
+        'pagelist': [('batch-search',
+                      'wide',
+                      0,
+                      {'fScope': {'fFileSetName': 'All Source Files',
+                                  'fLocation': None,
+                                  'fRecursive': True,
+                                  'fType': 'project-files'},
+                       'fSearchSpec': {'fEndPos': None,
+                                       'fIncludeLinenos': True,
+                                       'fInterpretBackslashes': False,
+                                       'fMatchCase': False,
+                                       'fOmitBinary': True,
+                                       'fRegexFlags': 42,
+                                       'fReplaceText': '',
+                                       'fReverse': False,
+                                       'fSearchText': '',
+                                       'fStartPos': 0,
+                                       'fStyle': 'text',
+                                       'fWholeWords': False,
+                                       'fWrap': True},
+                       'fUIOptions': {'fAutoBackground': True,
+                                      'fFilePrefix': 'short-file',
+                                      'fFindAfterReplace': True,
+                                      'fInSelection': False,
+                                      'fIncremental': True,
+                                      'fReplaceOnDisk': False,
+                                      'fShowFirstMatch': False,
+                                      'fShowLineno': True,
+                                      'fShowReplaceWidgets': False},
+                       'replace-entry-expanded': False,
+                       'search-entry-expanded': False}),
+                     ('interactive-search',
+                      'wide',
+                      0,
+                      {}),
+                     ('debug-data',
+                      'wide',
+                      0,
+                      {}),
+                     ('debug-exceptions',
+                      'wide',
+                      0,
+                      {}),
+                     ('debug-breakpoints',
+                      'wide',
+                      0,
+                      {}),
+                     ('testing',
+                      'wide',
+                      0,
+                      {}),
+                     ('debug-io',
+                      'wide',
+                      1,
+                      {}),
+                     ('debug-probe',
+                      'wide',
+                      2,
+                      {}),
+                     ('debug-watch',
+                      'wide',
+                      1,
+                      {'node-states': [('eval',
+        u'szMsg'),
+                                       ('eval',
+        u'from_addr')],
+                       'tree-state': {'expanded-nodes': [],
+                                      'selected-nodes': [(0,)],
+                                      'top-node': (0,)}}),
+                     ('debug-modules',
+                      'wide',
+                      1,
+                      {}),
+                     ('python-shell',
+                      'wide',
+                      2,
+                      {'active-range': (None,
+        -1,
+        -1),
+                       'attrib-starts': [],
+                       'code-line': '',
+                       'first-line': 0L,
+                       'folded-linenos': [],
+                       'history': {},
+                       'launch-id': None,
+                       'sel-line': 3L,
+                       'sel-line-start': 185L,
+                       'selection_end': 185L,
+                       'selection_start': 185L,
+                       'zoom': 0L}),
+                     ('bookmarks',
+                      'wide',
+                      1,
+                      {}),
+                     ('messages',
+                      'wide',
+                      2,
+                      {}),
+                     ('os-command',
+                      'wide',
+                      1,
+                      {})],
+        'primary_view_state': {'editor_states': ({'bookmarks': ([[loc('file:/Applications/WingPro.app/Contents/Resources/doc/TOC'),
+        {'displayed-index': 0,
+         'viewer-state': {'history': [-1,
+                                      0],
+                          'history-pos': 1,
+                          'index': 0,
+                          'top': 0,
+                          'top-left-pos': 0}},
+        1554296217.882463],
+        [loc('file:/Volumes/BUFFALO/Projects/framewk/02042011/as.mak'),
+         {'attrib-starts': [],
+          'code-line': '# as.mak autogenerated by makemake.cpp Fri Feb  4 05'\
+                       ':18:11 PST 2011\n',
+          'first-line': 0L,
+          'folded-linenos': [],
+          'sel-line': 0L,
+          'sel-line-start': 0L,
+          'selection_end': 0L,
+          'selection_start': 0L,
+          'zoom': 0L},
+         1554522336.804432],
+        [loc('file:/Users/doug/Downloads/retroassembler/Examples/Z80/Instructions.z80.asm'),
+         {'attrib-starts': [],
+          'code-line': '/***************************************************'\
+                       '***********************\r\n',
+          'first-line': 0L,
+          'folded-linenos': [],
+          'sel-line': 0L,
+          'sel-line-start': 0L,
+          'selection_end': 0L,
+          'selection_start': 0L,
+          'zoom': 0L},
+         1554571954.962909],
+        [loc('file:/Volumes/BUFFALO/Projects/framewk/02042011/as.mak'),
+         {'attrib-starts': [],
+          'code-line': '# as.mak autogenerated by makemake.cpp Fri Feb  4 05'\
+                       ':18:11 PST 2011\n',
+          'first-line': 0L,
+          'folded-linenos': [],
+          'sel-line': 0L,
+          'sel-line-start': 0L,
+          'selection_end': 0L,
+          'selection_start': 0L,
+          'zoom': 0L},
+         1554571956.740372],
+        [loc('file:/Applications/WingPro.app/Contents/Resources/doc/TOC'),
+         {'displayed-index': 0,
+          'viewer-state': {'history': [-1,
+                                       0],
+                           'history-pos': 1,
+                           'index': 0,
+                           'top': 0,
+                           'top-left-pos': 6460}},
+         1554571958.162093],
+        [loc('file:/Users/doug/Documents/CodeLite-test/a.out'),
+         {'attrib-starts': [],
+          'code-line': '\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\x07'\
+                       '\0\0\x01\x03\0\0\xef\xbf\xbd\x02\0\0\0\x10\0\0\0\xef'\
+                       '\xbf\xbd\x04\0\0\xef\xbf\xbd\0 \0\0\0\0\0\x19\0\0\0'\
+                       'H\0\0\0__PAGEZERO\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0'\
+                       '\0\x01\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0'\
+                       '\0\0\0\0\0\0\0\0\0\0\0\0\x19\0\0\0\xef\xbf\xbd\x01\0'\
+                       '\0__TEXT\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0\0\0\x10'\
+                       '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\0\0\0\0\x07\0'\
+                       '\0\0\x05\0\0\0\x05\0\0\0\0\0\0\0__text\0\0\0\0\0\0\0'\
+                       '\0\0\0__TEXT\0\0\0\0\0\0\0\0\0\0`\x0f\0\0\x01\0\0\0'\
+                       '#\0\0\0\0\0\0\0`\x0f\0\0\x04\0\0\0\0\0\0\0\0\0\0\0\0'\
+                       '\x04\0\xef\xbf\xbd\0\0\0\0\0\0\0\0\0\0\0\0__stubs\0'\
+                       '\0\0\0\0\0\0\0\0__TEXT\0\0\0\0\0\0\0\0\0\0\xef\xbf\xbd'\
+                       '\x0f\0\0\x01\0\0\0\x06\0\0\0\0\0\0\0\xef\xbf\xbd\x0f'\
+                       '\0\0\x01\0\0\0\0\0\0\0\0\0\0\0\x08\x04\0\xef\xbf\xbd'\
+                       '\0\0\0\0\x06\0\0\0\0\0\0\0__stub_helper\0\0\0__TEXT'\
+                       '\0\0\0\0\0\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x01\0\0\0\x1a'\
+                       '\0\0\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x02\0\0\0\0\0\0\0'\
+                       '\0\0\0\0\0\x04\0\xef\xbf\xbd\0\0\0\0\0\0\0\0\0\0\0\0'\
+                       '__cstring\0\0\0\0\0\0\0__TEXT\0\0\0\0\0\0\0\0\0\0\xef'\
+                       '\xbf\xbd\x0f\0\0\x01\0\0\0\x11\0\0\0\0\0\0\0\xef\xbf'\
+                       '\xbd\x0f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\0\0\0\0\0\0'\
+                       '\0\0\0\0\0\0\0\0\0__unwind_info\0\0\0__TEXT\0\0\0\0'\
+                       '\0\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x01\0\0\0H\0\0\0\0'\
+                       '\0\0\0\xef\xbf\xbd\x0f\0\0\x02\0\0\0\0\0\0\0\0\0\0\0'\
+                       '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x19\0\0\0\xef\xbf\xbd'\
+                       '\0\0\0__DATA\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\x01\0\0\0'\
+                       '\0\x10\0\0\0\0\0\0\0\x10\0\0\0\0\0\0\0\x10\0\0\0\0\0'\
+                       '\0\x07\0\0\0\x03\0\0\0\x02\0\0\0\0\0\0\0__nl_symbol_'\
+                       'ptr\0__DATA\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\x01\0\0\0'\
+                       '\x10\0\0\0\0\0\0\0\0\x10\0\0\x03\0\0\0\0\0\0\0\0\0\0'\
+                       '\0\x06\0\0\0\x01\0\0\0\0\0\0\0\0\0\0\0__la_symbol_pt'\
+                       'r\0__DATA\0\0\0\0\0\0\0\0\0\0\x10\x10\0\0\x01\0\0\0'\
+                       '\x08\0\0\0\0\0\0\0\x10\x10\0\0\x03\0\0\0\0\0\0\0\0\0'\
+                       '\0\0\x07\0\0\0\x03\0\0\0\0\0\0\0\0\0\0\0\x19\0\0\0H'\
+                       '\0\0\0__LINKEDIT\0\0\0\0\0\0\0 \0\0\x01\0\0\0\0\x10'\
+                       '\0\0\0\0\0\0\0 \0\0\0\0\0\0\xef\xbf\xbd\0\0\0\0\0\0'\
+                       '\0\x07\0\0\0\x01\0\0\0\0\0\0\0\0\0\0\0"\0\0\xef\xbf'\
+                       '\xbd0\0\0\0\0 \0\0\x08\0\0\0\x08 \0\0\x18\0\0\0\0\0'\
+                       '\0\0\0\0\0\0  \0\0\x10\0\0\0 \0\0\0\0\0\x02\0\0\0\x18'\
+                       '\0\0\0h \0\0\x04\0\0\0\xef\xbf\xbd \0\08\0\0\0\x0b\0'\
+                       '\0\0P\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02\0\0\0\x02\0'\
+                       '\0\0\x02\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0'\
+                       '\0\0\0\0\0\xef\xbf\xbd \0\0\x04\0\0\0\0\0\0\0\0\0\0'\
+                       '\0\0\0\0\0\0\0\0\0\x0e\0\0\0 \0\0\0\x0c\0\0\0/usr/li'\
+                       'b/dyld\0\0\0\0\0\0\0\x1b\0\0\0\x18\0\0\0\xef\xbf\xbd'\
+                       '\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\x1b'\
+                       '<\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbdF\xef\xbf\xbd\xef'\
+                       '\xbf\xbd6\xef\xbf\xbd\xef\xbf\xbd2\0\0\0 \0\0\0\x01'\
+                       '\0\0\0\0\x0e\n',
+          'first-line': 0L,
+          'folded-linenos': [],
+          'sel-line': 0L,
+          'sel-line-start': 0L,
+          'selection_end': 0L,
+          'selection_start': 0L,
+          'zoom': 0L},
+         1558446045.537163]],
+        6),
+        'current-loc': loc('hello.py'),
+        'editor-state-list': [(loc('hello.py'),
+                               {'attrib-starts': [],
+                                'code-line': '#!/usr/bin/python3.5\n',
+                                'first-line': 0L,
+                                'folded-linenos': [],
+                                'sel-line': 0L,
+                                'sel-line-start': 0L,
+                                'selection_end': 0L,
+                                'selection_start': 0L,
+                                'zoom': 0L})],
+        'has-focus': False,
+        'locked': False},
+        [loc('hello.py')]),
+                               'open_files': [u'hello.py']},
+        'saved_notebook_display': None,
+        'split_percents': {0: 0.5},
+        'splits': 2,
+        'tab_location': 'top',
+        'traversal_pos': ((-1,
+                           -1),
+                          0),
+        'user_data': {}},
+                 'saved_notebook_display': None,
+                 'split_percents': {0: 0.5},
+                 'splits': 2,
+                 'tab_location': 'left',
+                 'traversal_pos': ((-1,
+                                    -1),
+                                   0),
+                 'user_data': {}},
+        'window-alloc': (687,
+                         128,
+                         1223,
+                         888)}]}
+guimgr.recent-documents = [loc('hello.py')]
+guimgr.visual-state = {loc('file:/Users/doug/Documents/CodeLite-test/a.out'): {'a'\
+        'ttrib-starts': [],
+        'code-line': '\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\x07\0'\
+                     '\0\x01\x03\0\0\xef\xbf\xbd\x02\0\0\0\x10\0\0\0\xef\xbf'\
+                     '\xbd\x04\0\0\xef\xbf\xbd\0 \0\0\0\0\0\x19\0\0\0H\0\0\0'\
+                     '__PAGEZERO\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x01\0\0'\
+                     '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0'\
+                     '\0\0\0\0\0\0\x19\0\0\0\xef\xbf\xbd\x01\0\0__TEXT\0\0\0'\
+                     '\0\0\0\0\0\0\0\0\0\0\0\x01\0\0\0\0\x10\0\0\0\0\0\0\0\0'\
+                     '\0\0\0\0\0\0\0\x10\0\0\0\0\0\0\x07\0\0\0\x05\0\0\0\x05'\
+                     '\0\0\0\0\0\0\0__text\0\0\0\0\0\0\0\0\0\0__TEXT\0\0\0\0'\
+                     '\0\0\0\0\0\0`\x0f\0\0\x01\0\0\0#\0\0\0\0\0\0\0`\x0f\0'\
+                     '\0\x04\0\0\0\0\0\0\0\0\0\0\0\0\x04\0\xef\xbf\xbd\0\0\0'\
+                     '\0\0\0\0\0\0\0\0\0__stubs\0\0\0\0\0\0\0\0\0__TEXT\0\0'\
+                     '\0\0\0\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x01\0\0\0\x06\0\0'\
+                     '\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x01\0\0\0\0\0\0\0\0\0\0'\
+                     '\0\x08\x04\0\xef\xbf\xbd\0\0\0\0\x06\0\0\0\0\0\0\0__st'\
+                     'ub_helper\0\0\0__TEXT\0\0\0\0\0\0\0\0\0\0\xef\xbf\xbd'\
+                     '\x0f\0\0\x01\0\0\0\x1a\0\0\0\0\0\0\0\xef\xbf\xbd\x0f\0'\
+                     '\0\x02\0\0\0\0\0\0\0\0\0\0\0\0\x04\0\xef\xbf\xbd\0\0\0'\
+                     '\0\0\0\0\0\0\0\0\0__cstring\0\0\0\0\0\0\0__TEXT\0\0\0'\
+                     '\0\0\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x01\0\0\0\x11\0\0\0'\
+                     '\0\0\0\0\xef\xbf\xbd\x0f\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x02'\
+                     '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0__unwind_info\0\0\0__TEX'\
+                     'T\0\0\0\0\0\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x01\0\0\0H\0'\
+                     '\0\0\0\0\0\0\xef\xbf\xbd\x0f\0\0\x02\0\0\0\0\0\0\0\0\0'\
+                     '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x19\0\0\0\xef\xbf'\
+                     '\xbd\0\0\0__DATA\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\x01\0\0'\
+                     '\0\0\x10\0\0\0\0\0\0\0\x10\0\0\0\0\0\0\0\x10\0\0\0\0\0'\
+                     '\0\x07\0\0\0\x03\0\0\0\x02\0\0\0\0\0\0\0__nl_symbol_pt'\
+                     'r\0__DATA\0\0\0\0\0\0\0\0\0\0\0\x10\0\0\x01\0\0\0\x10'\
+                     '\0\0\0\0\0\0\0\0\x10\0\0\x03\0\0\0\0\0\0\0\0\0\0\0\x06'\
+                     '\0\0\0\x01\0\0\0\0\0\0\0\0\0\0\0__la_symbol_ptr\0__DAT'\
+                     'A\0\0\0\0\0\0\0\0\0\0\x10\x10\0\0\x01\0\0\0\x08\0\0\0'\
+                     '\0\0\0\0\x10\x10\0\0\x03\0\0\0\0\0\0\0\0\0\0\0\x07\0\0'\
+                     '\0\x03\0\0\0\0\0\0\0\0\0\0\0\x19\0\0\0H\0\0\0__LINKEDI'\
+                     'T\0\0\0\0\0\0\0 \0\0\x01\0\0\0\0\x10\0\0\0\0\0\0\0 \0'\
+                     '\0\0\0\0\0\xef\xbf\xbd\0\0\0\0\0\0\0\x07\0\0\0\x01\0\0'\
+                     '\0\0\0\0\0\0\0\0\0"\0\0\xef\xbf\xbd0\0\0\0\0 \0\0\x08'\
+                     '\0\0\0\x08 \0\0\x18\0\0\0\0\0\0\0\0\0\0\0  \0\0\x10\0'\
+                     '\0\0 \0\0\0\0\0\x02\0\0\0\x18\0\0\0h \0\0\x04\0\0\0\xef'\
+                     '\xbf\xbd \0\08\0\0\0\x0b\0\0\0P\0\0\0\0\0\0\0\0\0\0\0'\
+                     '\0\0\0\0\x02\0\0\0\x02\0\0\0\x02\0\0\0\0\0\0\0\0\0\0\0'\
+                     '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\xef\xbf\xbd \0\0\x04'\
+                     '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\x0e\0\0\0 \0\0'\
+                     '\0\x0c\0\0\0/usr/lib/dyld\0\0\0\0\0\0\0\x1b\0\0\0\x18'\
+                     '\0\0\0\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd'\
+                     '\xef\xbf\xbd\x1b<\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd'\
+                     'F\xef\xbf\xbd\xef\xbf\xbd6\xef\xbf\xbd\xef\xbf\xbd2\0'\
+                     '\0\0 \0\0\0\x01\0\0\0\0\x0e\n',
+        'first-line': 0L,
+        'folded-linenos': [],
+        'sel-line': 0L,
+        'sel-line-start': 0L,
+        'selection_end': 0L,
+        'selection_start': 0L,
+        'zoom': 0L},
+                       loc('file:/Users/doug/Downloads/retroassembler/Examples/Z80/Instructions.z80.asm'): {'a'\
+        'ttrib-starts': [],
+        'code-line': '/*****************************************************'\
+                     '*********************\r\n',
+        'first-line': 0L,
+        'folded-linenos': [],
+        'sel-line': 0L,
+        'sel-line-start': 0L,
+        'selection_end': 0L,
+        'selection_start': 0L,
+        'zoom': 0L},
+                       loc('file:/Volumes/BUFFALO/Projects/framewk/02042011/as.mak'): {'a'\
+        'ttrib-starts': [],
+        'code-line': '# as.mak autogenerated by makemake.cpp Fri Feb  4 05:1'\
+                     '8:11 PST 2011\n',
+        'first-line': 0L,
+        'folded-linenos': [],
+        'sel-line': 0L,
+        'sel-line-start': 0L,
+        'selection_end': 0L,
+        'selection_start': 0L,
+        'zoom': 0L}}
+testing.stored-results = (1,
+                          [],
+                          {})
