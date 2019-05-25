@@ -5,17 +5,24 @@
 import os
 import sys
 import smtplib
-
 import credentials
 
 def smtp_send(subject,body):
-    szMsg = "From: "
-    szMsg += credentials.SMTPFROM
-    szMsg += "\r\nTo: "
-    szMsg += credentials.SMTPDEST
-    szMsg += "\r\nSubject: " + subject + "\r\n\r\n" + body
-    server = smtplib.SMTP_SSL( credentials.SMTPHOST, credentials.SMTPPORT )
-    server.login(credentials.SMTPUSER,credentials.SMTPPASS)
-    server.set_debuglevel(1)
-    server.sendmail(credentials.SMTPFROM, credentials.SMTPDEST, szMsg)
-    server.quit()
+    try:
+        szMsg = "From: "
+        szMsg += credentials.SMTPFROM
+        szMsg += "\r\nTo: "
+        szMsg += credentials.SMTPDEST
+        szMsg += "\r\nSubject: " + subject + "\r\n\r\n" + body
+        server = smtplib.SMTP_SSL( credentials.SMTPHOST, credentials.SMTPPORT )
+        server.login(credentials.SMTPUSER,credentials.SMTPPASS)
+        server.set_debuglevel(1)
+        server.sendmail(credentials.SMTPFROM, credentials.SMTPDEST, szMsg)
+        server.quit()
+        return True
+    except:
+        return False
+
+#####################
+# eof - smtpbind.py #
+#####################
