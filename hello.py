@@ -2,19 +2,8 @@
 
 import os
 import sys
-import smtplib
+import smtpbind
 
-import credentials
+smtpbind.smtp_send("This is the Subject", "This is the body")
+sys.quit()
 
-szMsg = "From: "
-szMsg += credentials.SMTPFROM
-szMsg += "\r\nTo: "
-szMsg += credentials.SMTPDEST
-szMsg += "\r\nSubject: my auto test msg\r\n"
-
-server = smtplib.SMTP_SSL( credentials.SMTPHOST, credentials.SMTPPORT )
-server.login(credentials.SMTPUSER,credentials.SMTPPASS)
-server.set_debuglevel(1)
-server.sendmail(credentials.SMTPFROM, credentials.SMTPDEST, szMsg)
-server.quit()
-print("Message Sent!!\n")
