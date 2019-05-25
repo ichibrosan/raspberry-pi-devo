@@ -1,4 +1,4 @@
-# RASPBERRY-PI-devo
+# raspberry-pi-devo
 
 # This is an example Makefile that compiles and links the small
 # c++ program that impliments the Hello World!! protocol.
